@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_points_table_groups",
+  "info": {
+    "displayName": "Groups",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Teams": {
+      "type": "component",
+      "repeatable": true,
+      "component": "points-table.table-entry"
+    }
+  }
+}

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "points-table",
     "pluralName": "points-tables",
-    "displayName": "Points Table"
+    "displayName": "Points Table",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,10 +14,11 @@
     "TournamentName": {
       "type": "string"
     },
-    "Teams": {
+    "Groups": {
+      "displayName": "Groups",
       "type": "component",
       "repeatable": true,
-      "component": "points-table.table-entry"
+      "component": "points-table.groups"
     }
   }
 }
