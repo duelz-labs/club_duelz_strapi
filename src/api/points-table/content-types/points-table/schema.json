@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "points_tables",
+  "info": {
+    "singularName": "points-table",
+    "pluralName": "points-tables",
+    "displayName": "Points Table"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "TournamentName": {
+      "type": "string"
+    },
+    "Teams": {
+      "type": "component",
+      "repeatable": true,
+      "component": "points-table.table-entry"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_points_table_table_entries",
+  "info": {
+    "displayName": "Table Entry"
+  },
+  "options": {},
+  "attributes": {
+    "TeamName": {
+      "type": "string"
+    },
+    "MatchesPlayed": {
+      "type": "integer"
+    },
+    "Wins": {
+      "type": "integer"
+    },
+    "Draws": {
+      "type": "integer"
+    },
+    "Points": {
+      "type": "integer"
+    },
+    "GoalsScored": {
+      "type": "integer"
+    },
+    "GoalsConceded": {
+      "type": "integer"
+    }
+  }
+}
