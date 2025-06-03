@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_region_cities",
+  "info": {
+    "displayName": "Cities",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "Country": {
+      "type": "string"
+    },
+    "OperationalSince": {
+      "type": "date"
+    }
+  }
+}

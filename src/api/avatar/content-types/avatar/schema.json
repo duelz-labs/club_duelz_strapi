@@ -4,24 +4,26 @@
   "info": {
     "singularName": "avatar",
     "pluralName": "avatars",
-    "displayName": "Avatar"
+    "displayName": "Avatar",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "attributes": {
-    "username": {
+    "Username": {
       "type": "string"
     },
-    "avatar": {
+    "Avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

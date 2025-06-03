@@ -4,17 +4,24 @@
   "info": {
     "singularName": "region",
     "pluralName": "regions",
-    "displayName": "Region"
+    "displayName": "Region",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "attributes": {
-    "name": {
+    "Name": {
       "type": "string"
     },
-    "legacy": {
+    "Legacy": {
       "type": "boolean"
+    },
+    "Cities": {
+      "displayName": "Cities",
+      "type": "component",
+      "repeatable": true,
+      "component": "region.cities"
     }
   }
 }

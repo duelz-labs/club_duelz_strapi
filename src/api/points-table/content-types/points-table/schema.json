@@ -19,6 +19,9 @@
       "type": "component",
       "repeatable": true,
       "component": "points-table.groups"
+    },
+    "Region": {
+      "type": "string"
     }
   }
 }
