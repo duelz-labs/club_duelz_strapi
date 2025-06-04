@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tournament",
     "pluralName": "tournaments",
-    "displayName": "Tournament"
+    "displayName": "Tournament",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,14 +15,15 @@
       "type": "string"
     },
     "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Location": {
       "type": "string"
@@ -31,6 +33,9 @@
     },
     "Subdomain": {
       "type": "string"
+    },
+    "PrizePool": {
+      "type": "integer"
     }
   }
 }
