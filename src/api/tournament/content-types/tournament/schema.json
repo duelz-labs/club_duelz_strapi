@@ -36,6 +36,9 @@
     },
     "PrizePool": {
       "type": "integer"
+    },
+    "League": {
+      "type": "boolean"
     }
   }
 }
