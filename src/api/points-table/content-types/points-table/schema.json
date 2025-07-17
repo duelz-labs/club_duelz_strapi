@@ -22,6 +22,9 @@
     },
     "Region": {
       "type": "string"
+    },
+    "City": {
+      "type": "string"
     }
   }
 }
